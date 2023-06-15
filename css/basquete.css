@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+#equipeA {
+    background-color: cornflowerblue;
+    flex: 1;
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#placar {
+    background-color: dimgrey;
+    flex: 1;
+    margin-left: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+
+}
+
+#equipeB {
+    background-color: darkorchid;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.placarA {
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+    font-size: 10px;
+    color: white;
+    
+}
+
+#botoesPlacar {
+    display: flex;
+}
+
+button {
+    margin: 10px;
+}
+
+
+#placar {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#pontos {
+    font-size: 30px;
+    font-weight: bold;
+}
